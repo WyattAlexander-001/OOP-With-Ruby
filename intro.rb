@@ -8,6 +8,15 @@ puts 47.8.to_i # => 47
 puts "This is concat".concat("enation")
 puts "This is concat" + "enation"
 puts "This is concat" << "enation"
+puts 7 ** 2
+faveFruit = "Mango"
+leastFavoriteFruit = "Kiwi".upcase
+faveFruit = leastFavoriteFruit
+puts faveFruit * 2
+puts faveFruit
+
+puts "yum" * 10 
+puts "yum".reverse
 
 puts "Wyatt"[0] # => W
 puts "Wyatt"[0,3] # => Wya So it's 0 up to but not including 3 So 0 to blah-1
