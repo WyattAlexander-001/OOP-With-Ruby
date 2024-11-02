@@ -43,5 +43,4 @@ puts 5.to_s
 puts nil.to_s
 puts :symbol.to_s # Symbols are stored in memory once, strings are stored in memory every time they are used
 
-# :wyatt_symbol = "Wyatt" # => SyntaxError: (irb):1: syntax error, unexpected '=', expecting end-of-input
 
