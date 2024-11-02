@@ -1,4 +1,8 @@
 module Cute
+  def flirt name
+    puts "You're Cute #{name}!"
+  end
+  
   module Lines
     def flirt name
       puts "Hey, what's up #{name * Math.sqrt(25)}?"
@@ -10,6 +14,7 @@ module Cute
       puts "Hey, you're looking good #{name * Math.sqrt(25)}!"
     end
   end
+
 end
 
 include Cute::Lines # This is how you include a module
