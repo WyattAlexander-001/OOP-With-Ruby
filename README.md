@@ -40,3 +40,16 @@ cd projecstDir
 rails new projectNameDir ; cd projectNameDir ; 
 rails s
 ```
+
+Creating stuff using generator
+```ruby
+rails g controller home index
+```
+The above code makes a controller, a home directory, and an index.erb
+
+You can do this manually by: 
+* going to config and making a route in route.rb
+* going to views and making a directory
+* going to controller dir to make a file too
+
+If you don't know css that well boot strap is an option:
