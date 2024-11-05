@@ -1,4 +1,4 @@
-thisWillFail = "Muay Thai"
+thisWillFail = 'Muay Thai'
 puts thisWillFail.reverse
 thisWillFail = nil
 puts thisWillFail.reverse

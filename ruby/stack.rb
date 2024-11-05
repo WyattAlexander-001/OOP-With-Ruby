@@ -1,9 +1,9 @@
 plateOfFood = []
 
-plateOfFood.push("rice")
-plateOfFood.push("curry sauce")
-plateOfFood.push("chicken")
-plateOfFood.push("salt")
+plateOfFood.push('rice')
+plateOfFood.push('curry sauce')
+plateOfFood.push('chicken')
+plateOfFood.push('salt')
 
 puts plateOfFood.inspect # inspect is a method that shows the contents of an array
 puts plateOfFood # puts will show the array in a single line

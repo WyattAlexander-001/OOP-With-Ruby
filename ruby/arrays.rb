@@ -1,4 +1,4 @@
-faveFruits = ["Mango", "avocado", "banana", "mangosteen", "lanzones"]
+faveFruits = %w[Mango avocado banana mangosteen lanzones]
 puts faveFruits
 puts faveFruits.length
 puts faveFruits[0]
@@ -22,7 +22,7 @@ puts faveFruits.join("\t\n AND \n \t")
 faveFruits.each do |fruit|
   puts fruit.reverse
 end
-puts "-----------------"
+puts '-----------------'
 puts faveFruits.sort
-puts faveFruits.include?("Mango")
-puts faveFruits.include?("mango")
+puts faveFruits.include?('Mango')
+puts faveFruits.include?('mango')

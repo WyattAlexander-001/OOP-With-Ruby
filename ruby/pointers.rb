@@ -1,11 +1,11 @@
-a = "hi there"
+a = 'hi there'
 b = a
-a = "not here"
+a = 'not here'
 puts "This is a's value: " + a
 puts "This is b's value: " + b
 
-a = "hi there"
+a = 'hi there'
 b = a
-a << ", Bob"
+a << ', Bob'
 puts b
 puts a

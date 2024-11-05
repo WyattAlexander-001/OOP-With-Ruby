@@ -10,4 +10,4 @@ def yell_greeting(string)
   puts greeting
 end
 
-yell_greeting("bob")
+yell_greeting('bob')

@@ -1,37 +1,36 @@
 class Chef
   def make_chicken
-    puts "The chef makes chicken"
+    puts 'The chef makes chicken'
   end
 
   def make_salad
-    puts "The chef makes salad"
+    puts 'The chef makes salad'
   end
 
   def make_special_dish
-    puts "The chef makes the generic meal of the day"
+    puts 'The chef makes the generic meal of the day'
   end
-
 end
 
 class ItalianChef < Chef
   def make_special_dish
-    puts "The chef makes eggplant parm his specialty! As HE IS ITALIAN"
+    puts 'The chef makes eggplant parm his specialty! As HE IS ITALIAN'
   end
 
   def make_pasta
-    puts "The chef makes pasta"
+    puts 'The chef makes pasta'
   end
 end
 
-chef = Chef.new()
+chef = Chef.new
 chef.make_chicken
 chef.make_special_dish
 
-puts "-----------------"
+puts '-----------------'
 # chef.make_pasta # This will not work as the Chef class does not have the make_pasta method
-puts "-----------------"
+puts '-----------------'
 
-italian_chef = ItalianChef.new()
+italian_chef = ItalianChef.new
 italian_chef.make_chicken
 italian_chef.make_pasta
 italian_chef.make_special_dish

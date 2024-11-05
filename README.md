@@ -53,3 +53,12 @@ You can do this manually by:
 * going to controller dir to make a file too
 
 If you don't know css that well boot strap is an option:
+
+## Ruby Specific Notes:
+* One class per file, and each file in a lib directory
+* Bundler is important to get everyone on same page, it's like npm install...
+
+* This command is powerful:
+```ruby
+bundle exec rubocop -a
+```
