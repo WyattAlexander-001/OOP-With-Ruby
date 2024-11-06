@@ -1,0 +1,11 @@
+# frozen_string_literal: true
+
+# made by writing bundle init in the terminal
+# then bundle add colorize
+source 'https://rubygems.org'
+
+# gem "rails"
+
+gem 'colorize', '~> 1.1'
+
+gem 'rubocop', '~> 1.68'
